@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f5f3eb;	/*背景の色*/
+    width: 960px;	   /*全体の幅を指定する*/
+    margin: 0 auto;        /*マージンの指定をする、ブラウザ対策*/
+}
+
+h1 {
+        font-size: 28px;	   /*文字のサイズ*/
+   	color: #442220;	   /*文字の色*/
+	border-bottom-width: 2px;	   /*下線の太さ*/
+	border-bottom-style: dotted;	   /*下線のスタイル*/
+	border-bottom-color: #442220;	   /*下線の色*/
+	text-align: center;	  	 /*文字の位置*/
+}
+
+h2 {
+        font-size: 28px;	   /*文字のサイズ*/
+   	color: #442220;	   /*文字の色*/
+	border-bottom-width: 2px;	   /*下線の太さ*/
+	border-bottom-style: dotted;	   /*下線のスタイル*/
+	border-bottom-color: #FF0000;	   /*下線の色*/
+	text-align: center;	  	 /*文字の位置*/
+}
+
+a:link {
+	color:#6aa4d6;     /* リンクの通常の色 */
+}
+
+a:visited {
+	color:blue;    /* リンク先が訪問済み */
+}
+
+a:hover {
+	color:red;    /* マウスボタンが押されている */
+}
+
+table{
+	border-collapse: collapse;       /* セルの線を重ねる */
+	border: 2px solid #b78c5f;	 /* 枠線指定 */
+}
+
+th {
+    	width:  100px;              /* 幅指定 */
+    	height: 30px;               /* 高さ指定 */
+	background-color: #c99e73;              /* セルの色 */
+	color: #441120;              /* 文字の色 */
+}
+td {
+	text-align:  center;        /* 文字の揃え位置指定 */
+	vertical-align: middle;        /* 文字の縦位置指定 */
+}
